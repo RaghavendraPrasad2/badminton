@@ -1,0 +1,105 @@
+.gameformattitle
+{
+    -webkit-text-stroke: 1px rgb(255, 94, 94);
+    -webkit-text-fill-color: rgb(255, 30, 30);
+    font-size: 40px;
+    margin-left: 40%;
+}
+
+.selectTeamName
+{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    margin-left: 40%;
+}
+
+.StartMatchScoreCounter
+{
+    margin-left: 33.7%;
+    padding: 20px 200px;
+}
+.scoreCounterSelect
+{
+  width: 500px;
+  margin-left: 33%;
+  color: white;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.overlay3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  
+  .overlay-content3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+    width: 100%;
+    /* overflow-y: scroll; */
+  }
+
+
+  .PlayerName
+  {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .FirstTeam
+  {
+    margin-left: 40%;
+  }
+
+.ScoreButtons
+{
+  margin-left: 36.5%;
+}
+
+.overlay3.visible {
+  display: flex;
+}
+.overlay3.hidden {
+  display: none;
+}
+
+.NoOfPoints
+{
+ background-color: rgb(103, 103, 103);
+ max-width: 200px;
+ margin-left: 43%;
+}
+
+.NumberOfMatchPoints
+{
+  color: white;
+  font-size: 20px;
+  margin-left: 41%;
+  font-weight: bolder;
+}
+
+.ScoreCounterXButton
+{
+  float:right;
+  background-color: transparent;
+  color: #635c5c;
+  padding: 0;
+  font-size: 28px;
+}
+.ScoreCounterXButton:hover
+{
+  background-color: transparent;
+  color: black;
+}

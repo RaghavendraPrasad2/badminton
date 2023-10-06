@@ -1,0 +1,101 @@
+#activities-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,0.3);
+    padding: 50px;
+  }
+  .activity-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    width: 98%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-left: 10px;
+    overflow-x: scroll;
+    max-width: 1400px;
+  }
+  .activity-section p{
+    margin-left: 50%;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: larger;
+    color: whitesmoke;
+   
+  }
+  .activities-container h2 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+
+.tournament-link {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    /* min-width: calc(20% - 20px); */
+    background-color: rgb(0, 0, 0);
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(57, 57, 57, 0.801), 0 6px 20px 0 rgba(255, 255, 255, 0.681); */
+    box-shadow: 4px 4px 8px rgba(250, 250, 250, 0.422);
+    width: 400px;
+  }
+
+.tournament-link:hover{
+    transform: scale(1.05);
+  }
+ 
+  .tournament-card
+  {
+    width: 400px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    scrollbar-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tournament-card h3 
+  {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+
+  .tournament-card p
+  {
+    color: rgb(255, 255, 255);
+    margin: 8px 0;
+  }
+  
+  .tournament-card span
+  {
+    color: rgb(111, 111, 111);
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(132, 132, 132); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}

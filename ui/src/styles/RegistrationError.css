@@ -1,0 +1,38 @@
+.content1 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #00000099;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.alert1 {
+    background-color: #f74747;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+ .buttonFail {
+    padding: 15px 40px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-left: 45%;
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+ .buttonFail:hover {
+    background-color: rgb(32, 32, 32);
+}
